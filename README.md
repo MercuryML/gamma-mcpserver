@@ -185,7 +185,7 @@ Let's break down the key parts of the `src/index.ts` file:
 ## Running Your Server
 
 1.  **Set the `GAMMA_API_KEY` Environment Variable:**
-    Before running the server, ensure you have set the `GAMMA_API_KEY` environment variable as described in the "API Key Configuration" section above.
+    Before running the server, ensure you have set the `GAMMA_API_KEY` environment variable as described in the "API Key Configuration" section above./
 
 2.  **Start the Server:**
     With the environment variable set, you can run the server using `ts-node`:

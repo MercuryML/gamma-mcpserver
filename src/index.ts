@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
@@ -99,9 +100,8 @@ server.tool(
         content: [
           {
             type: "text",
-            text: `Failed to generate presentation using Gamma API. Error: ${
-              error || "Unknown error."
-            }`,
+            text: `Failed to generate presentation using Gamma API. Error: ${error || "Unknown error."
+              }`,
           },
         ],
       };
