@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@mercuryml/gamma-mcp-server",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "bin": {
     "gamma-mcp-server": "build/index.js"
   },
