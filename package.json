@@ -3,7 +3,7 @@
   "name": "@mercuryml/gamma-mcp-server",
   "version": "1.0.4",
   "bin": {
-    "gamma-mcp-server": "./build/index.js"
+    "gamma-mcp-server": "build/index.js"
   },
   "scripts": {
     "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\" && mkdir -p dist && cp build/index.js dist/index.js",
