@@ -6,7 +6,7 @@ import fetch from "node-fetch";
 import dotenv from "dotenv";
 dotenv.config();
 
-const GAMMA_API_URL = "https://api.gamma.app/public-api/v0.1/generate";
+const GAMMA_API_URL = process.env.GAMMA_API_URL || "https://api.gamma.app/public-api/v0.1/generations/generate-sync";
 const GAMMA_API_KEY = process.env.GAMMA_API_KEY;
 
 // Helper function for making Gamma API requests
